@@ -5,6 +5,7 @@ export const ProjectStyle = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  background-color: #eee;
   .project-info {
     border: 1px solid #000;
     border-radius: 12px;
@@ -47,7 +48,7 @@ export const ProjectStyle = styled.div`
   @media (max-width: 768px) {
     .project-info {
       iframe {
-        height: 50vh;
+        pointer-events: none;
       }
     }
   }

@@ -10,9 +10,10 @@ export const SkillsStyle = styled.div`
   justify-content: center;
   gap: 10px;
   padding: 40px;
+  background-color: #36363c;
   h1 {
     line-height: 40px;
-    color: #1c1b23;
+    color: #fff;
   }
   .skills-list {
     display: flex;

@@ -54,6 +54,9 @@ export const HomeStyle = styled.div`
     }
   }
   @media (max-width: 768px) {
+    .bg-layer {
+      height: 80px;
+    }
     .wrap-home {
       .home-left {
         img {
